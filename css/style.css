@@ -1,0 +1,62 @@
+body {
+   background-color: #FFFFFF;
+   color: #434455;
+}
+
+.list {
+   list-style: none;
+}
+
+.link {
+   text-decoration: none;
+}
+
+.header {
+}
+.nav {
+}
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+text-decoration: none;
+}
+
+.logo-blue {
+color: #4D5AE5;
+}
+.nav-list {
+}
+/* .nav-item {   закончид здесь */
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+}
+.nav-link {
+}
+.contacts {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-mail {
+}
+.contacts-phone {
+}
