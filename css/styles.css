@@ -7,11 +7,6 @@
    --footer-white: #F4F4FD;
 }
 
-
-body {
-
-}
-
 .list {
    list-style: none;
 }
@@ -37,6 +32,10 @@ color: var(--main-logo-color);
 .logo-blue{
 color: var(--main-title-color);
 }
+.header-logo .link {
+   text-decoration: none;
+}
+
 .header-item {
 
 }
@@ -47,6 +46,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-title-color);
 }
+
+.adress {
+   font-style: normal; 
+}
+
 .header-link:is(:hover, :focus) {
    color: var(--select-color);
 }
