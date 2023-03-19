@@ -8,7 +8,10 @@
 }
 
 body {
-
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   background-color: #e5e5e5;
+   color: var(--main-text-color);
 }
 
 .list {
@@ -25,7 +28,7 @@ body {
 
 }
 .header-logo {
-font-family: "Raleway" sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -90,7 +93,7 @@ color: var(--accent-color);
 }
 
 .hero-btn {
-   font-family: 'Roboto';
+font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -172,7 +175,7 @@ color: var(--main-text-color);
 }
 
 .footer-logo-blue {
-font-family: 'Raleway';
+font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
@@ -185,7 +188,7 @@ color: var(--main-logo-color);
 }
 
 .footer-logo {
-font-family: 'Raleway';
+font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
