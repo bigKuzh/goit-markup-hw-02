@@ -71,21 +71,25 @@ color: var(--main-title-color);
    color: var(--select-color);
 }
 .header-mail {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-text-color);
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--main-text-color);
 }
 .header-mail:is(:hover, :focus) {
    color: var(--select-color);
 }
 .header-phone {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-text-color);
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--main-text-color);
 }
 /* ---------------------------------Hero--------------------------------- */
 .hero {
