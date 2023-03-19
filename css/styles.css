@@ -86,7 +86,7 @@ color: var(--main-title-color);
    font-family: "Roboto", sans-serif;
    font-style: normal;
    font-weight: 400;
-   font-size: 16px;
+   font-size: 16px; 
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--main-text-color);
