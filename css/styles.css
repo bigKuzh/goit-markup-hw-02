@@ -9,7 +9,11 @@
 
 
 body {
+   font-family: "Roboto", sans-serif;
+   color: #434455;
+   background-color: var(--accent-color)
 }
+
 .list {
    list-style: none;
 }
@@ -33,16 +37,7 @@ text-transform: uppercase;
 color: var(--main-logo-color);
 }
 .logo-blue{
-   font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 21px1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--main-logo-color);
+color: var(--main-title-color);
 }
 .header-item {
 
