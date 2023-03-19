@@ -65,8 +65,8 @@ color: var(--main-title-color);
 
 .header-link:is(:hover, :focus) {
    color: var(--select-color);
-
-.header-address {
+}
+.header-address{ 
    font-style: normal; 
 }
 
@@ -101,12 +101,14 @@ color: var(--main-title-color);
 }
 
 .hero-title {
-font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--accent-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 56px;
+   line-height: 1.07;
+   text-align: center;
+   letter-spacing: 0.02em;
+   color: var(--accent-color);
 }
 
 .hero-btn {
@@ -126,6 +128,10 @@ cursor: pointer;
    background-color: var(--select-color);
 }
 /* -------------------------------About US------------------------------- */
+.about {
+   background-color: var(--accent-color);
+}
+
 .about-title {
 
 }
