@@ -146,7 +146,7 @@ cursor: pointer;
    color: var(--main-title-color);
 }
 
-.about-text p {
+.about-text {
    font-family: "Roboto", sans-serif;
    font-style: normal;
    font-weight: 400;
