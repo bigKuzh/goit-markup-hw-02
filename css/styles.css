@@ -63,11 +63,14 @@ letter-spacing: 0.02em;
 color: var(--main-title-color);
 }
 
+.header-link:is(:hover, :focus) {
+   color: var(--select-color);
+
 .header-address {
    font-style: normal; 
 }
 
-.header-link:is(:hover, :focus) {
+.header-mail:is(:hover, :focus) {
    color: var(--select-color);
 }
 .header-mail{
@@ -94,13 +97,13 @@ color: var(--main-title-color);
 
 /* ---------------------------------Hero--------------------------------- */
 .hero {
-   background-color: var(--main-text-color);
+   background-color: var(--main-title-color);
 }
 
 .hero-title {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.08;
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: var(--accent-color);
@@ -115,14 +118,18 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: var(--accent-color);
+color: var(--main-logo-color);
 cursor: pointer;
+}
+
+.hero-btn:is(:hover, :focus) {
+   background-color: var(--select-color);
 }
 /* -------------------------------About US------------------------------- */
 .about-title {
 
 }
-.about-title-h3 {
+.about-title-h3 h3 {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -130,7 +137,7 @@ letter-spacing: 0.02em;
 color: var(--main-title-color);
 }
 
-.about-text {
+.about-text p {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -142,7 +149,7 @@ color: var(--main-text-color);
 .projects-title {
    font-weight: 700;
 font-size: 36px;
-line-height: 1.12;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -154,6 +161,15 @@ color: var(--main-title-color);
 }
 
 /* --------------------------------Our Team-------------------------------- */
+
+.team {
+   background-color: var(--footer-white);
+}
+
+.team-item {
+   background-color: var(--accent-color);
+}
+
 .team-title {
 font-weight: 700;
 font-size: 36px;
@@ -185,7 +201,7 @@ color: var(--main-text-color);
 /* ---------------------------Footer--------------------------- */
 
 .footer {
-   background-color: var(--main-text-color);
+   background-color: var(--main-title-color);
 }
 
 .footer-logo-blue {
@@ -198,7 +214,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--main-logo-color);
+color: var(--footer-white);
 }
 
 .footer-logo {
@@ -211,7 +227,7 @@ display: flex;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--footer-white);
+color: var(--main-logo-color)
 }
 
 .footer-text {
@@ -226,6 +242,8 @@ color: var(--footer-white);
 
 /* ------------------------------Filter------------------------------ */
 .filter-btn {
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
@@ -234,7 +252,7 @@ color: var(--footer-white);
    text-align: center;
    letter-spacing: 0.04em;
    color: var(--main-logo-color);
-   background: var(--footer-white);
+   background-color: var(--footer-white);
    cursor: pointer;
 }
 
