@@ -70,7 +70,7 @@ color: var(--main-title-color);
 .header-link:is(:hover, :focus) {
    color: var(--select-color);
 }
-.header-mail .header-phone{
+.header-mail{
    font-family: "Roboto", sans-serif;
    font-style: normal;
    font-weight: 400;
@@ -79,10 +79,10 @@ color: var(--main-title-color);
    letter-spacing: 0.02em;
    color: var(--main-text-color);
 }
-.header-mail:is(:hover, :focus) {
+.header-phone:is(:hover, :focus) {
    color: var(--select-color);
 }
-/* .header-phone {
+.header-phone {
    font-family: "Roboto", sans-serif;
    font-style: normal;
    font-weight: 400;
@@ -90,7 +90,7 @@ color: var(--main-title-color);
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--main-text-color);
-} */
+}
 
 /* ---------------------------------Hero--------------------------------- */
 .hero {
