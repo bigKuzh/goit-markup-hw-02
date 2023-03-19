@@ -25,7 +25,7 @@ body {
 
 }
 .header-logo {
-font-family: 'Raleway' sans-serif;
+font-family: "Raleway" sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -34,7 +34,6 @@ text-transform: uppercase;
 color: var(--main-logo-color);
 }
 .logo-blue{
-font-family: 'Raleway' sans-serif;
 color: var(--main-title-color);
 }
 .header-logo .link {
