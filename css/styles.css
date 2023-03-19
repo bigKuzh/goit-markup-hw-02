@@ -70,7 +70,7 @@ color: var(--main-title-color);
 .header-link:is(:hover, :focus) {
    color: var(--select-color);
 }
-/* .header-mail {
+.header-mail .header-phone{
    font-family: "Roboto", sans-serif;
    font-style: normal;
    font-weight: 400;
@@ -78,7 +78,7 @@ color: var(--main-title-color);
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: var(--main-text-color);
-} */
+}
 .header-mail:is(:hover, :focus) {
    color: var(--select-color);
 }
@@ -92,15 +92,6 @@ color: var(--main-title-color);
    color: var(--main-text-color);
 } */
 
-.address-item {
-   font-family: "Roboto", sans-serif;
-   font-style: normal;
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.5;
-   letter-spacing: 0.02em;
-   color: var(--main-text-color);
-}
 /* ---------------------------------Hero--------------------------------- */
 .hero {
    background-color: var(--main-text-color);
