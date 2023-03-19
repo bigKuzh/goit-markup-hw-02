@@ -7,6 +7,10 @@
    --footer-white: #F4F4FD;
 }
 
+body {
+
+}
+
 .list {
    list-style: none;
 }
@@ -30,6 +34,7 @@ text-transform: uppercase;
 color: var(--main-logo-color);
 }
 .logo-blue{
+font-family: 'Raleway' sans-serif;
 color: var(--main-title-color);
 }
 .header-logo .link {
