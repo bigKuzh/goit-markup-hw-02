@@ -37,15 +37,6 @@ text-transform: uppercase;
 color: var(--main-logo-color);
 }
 .logo-blue{
-   font-family: "Raleway", sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: var(--main-title-color);
 }
 .header-logo .link {
@@ -75,8 +66,6 @@ color: var(--main-title-color);
 }
 .header-mail{
    font-family: "Roboto", sans-serif;
-   font-style: normal;
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -87,8 +76,6 @@ color: var(--main-title-color);
 }
 .header-phone {
    font-family: "Roboto", sans-serif;
-   font-style: normal;
-   font-weight: 400;
    font-size: 16px; 
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -101,9 +88,6 @@ color: var(--main-title-color);
 }
 
 .hero-title {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 700;
    font-size: 56px;
    line-height: 1.07;
    text-align: center;
@@ -113,7 +97,6 @@ color: var(--main-title-color);
 
 .hero-btn {
 font-family: "Roboto", sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -137,8 +120,6 @@ cursor: pointer;
 
 }
 .about-title {
-   font-family: "Roboto", sans-serif;
-   font-style: normal;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
@@ -147,9 +128,6 @@ cursor: pointer;
 }
 
 .about-text {
-   font-family: "Roboto", sans-serif;
-   font-style: normal;
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
@@ -158,7 +136,6 @@ cursor: pointer;
 /* -------------------------------Project------------------------------- */
 
 .projects-title {
-   font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -182,7 +159,6 @@ color: var(--main-title-color);
 }
 
 .team-title {
-font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -201,7 +177,6 @@ color: var(--main-title-color);
 }
 
 .team-text {
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 text-align: center;
@@ -216,21 +191,11 @@ color: var(--main-text-color);
 }
 
 .footer-logo-blue {
-font-family: "Raleway", sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: var(--footer-white);
 }
 
 .footer-logo {
 font-family: "Raleway", sans-serif;
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -254,7 +219,6 @@ color: var(--footer-white);
 /* ------------------------------Filter------------------------------ */
 .filter-btn {
    font-family: "Roboto", sans-serif;
-   font-style: normal;
    font-weight: 500;
    font-size: 16px;
    line-height: 1.5;
@@ -268,13 +232,6 @@ color: var(--footer-white);
 }
 
 .filter-btn:is(:hover, :focus) {
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.5;
-   display: flex;
-   align-items: center;
-   text-align: center;
-   letter-spacing: 0.04em;
    color: var(--accent-color);
    background-color: var(--select-color);
 }
